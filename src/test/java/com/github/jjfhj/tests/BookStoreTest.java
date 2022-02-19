@@ -1,9 +1,6 @@
 package com.github.jjfhj.tests;
 
-import com.github.jjfhj.JiraIssue;
-import com.github.jjfhj.JiraIssues;
-import com.github.jjfhj.Layer;
-import com.github.jjfhj.Microservice;
+
 import com.github.jjfhj.lombok.UserRequestData;
 import com.github.jjfhj.lombok.UserResponseData;
 import com.github.jjfhj.lombok.UserToken;
@@ -24,10 +21,9 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Layer("rest")
+
 @Owner("kgordienko")
 @Tags({@Tag("Web"), @Tag("API")})
-@JiraIssues({@JiraIssue("HOMEWORK-325")})
 @Link(name = "Book Store", url = "https://demoqa.com/books")
 @DisplayName("Тестирование веб-приложения Book Store")
 public class BookStoreTest extends TestBase {
@@ -47,7 +43,6 @@ public class BookStoreTest extends TestBase {
     @Test
     @DisplayName("Успешная генерация токена (с использованием Lombok)")
     @Tags({@Tag("Critical"), @Tag("Highest")})
-    @Microservice("Account")
     @Feature("Генерация токена")
     @Story("Метод POST /Account/v1/GenerateToken")
     @Severity(SeverityLevel.CRITICAL)
@@ -69,7 +64,6 @@ public class BookStoreTest extends TestBase {
     @Test
     @DisplayName("Отображение списка всех книг (с использованием модели)")
     @Tags({@Tag("Major"), @Tag("Medium")})
-    @Microservice("BookStore")
     @Feature("Список книг")
     @Story("Метод GET /BookStore/v1/Books")
     @Severity(SeverityLevel.NORMAL)
@@ -89,7 +83,6 @@ public class BookStoreTest extends TestBase {
     @Test
     @DisplayName("Отображение списка всех книг (с использованием Groovy)")
     @Tags({@Tag("Major"), @Tag("Medium")})
-    @Microservice("BookStore")
     @Feature("Список книг")
     @Story("Метод GET /BookStore/v1/Books")
     @Severity(SeverityLevel.NORMAL)
@@ -108,7 +101,6 @@ public class BookStoreTest extends TestBase {
     @Test
     @DisplayName("Отображение определенной книги по ISBN в списке всех книг")
     @Tags({@Tag("Major"), @Tag("Medium")})
-    @Microservice("BookStore")
     @Feature("Список книг")
     @Story("Метод GET /BookStore/v1/Book")
     @Severity(SeverityLevel.NORMAL)
@@ -129,7 +121,6 @@ public class BookStoreTest extends TestBase {
     @Test
     @DisplayName("Добавление и удаление книги в профиле пользователя")
     @Tags({@Tag("Blocker"), @Tag("High")})
-    @Microservice("BookStore")
     @Owner("user")
     @Feature("Список книг в профиле пользователя")
     @Story("Методы POST /BookStore/v1/Books ❘ DELETE /BookStore/v1/Book")
