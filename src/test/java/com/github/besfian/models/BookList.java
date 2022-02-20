@@ -1,4 +1,4 @@
-package com.github.jjfhj.models;
+package com.github.besfian.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

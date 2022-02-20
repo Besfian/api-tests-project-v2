@@ -1,12 +1,12 @@
-package com.github.jjfhj.lombok;
+package com.github.besfian.lombok;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class UserRequestData {
+public class UserResponseData {
 
-    private String userName;
-    private String password;
+    private String userId;
+    private String token;
 }

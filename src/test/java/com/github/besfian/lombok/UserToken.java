@@ -1,4 +1,4 @@
-package com.github.jjfhj.lombok;
+package com.github.besfian.lombok;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

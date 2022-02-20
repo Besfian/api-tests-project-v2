@@ -1,12 +1,12 @@
-package com.github.jjfhj.specs;
+package com.github.besfian.specs;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-import static com.github.jjfhj.config.App.API_CONFIG;
-import static com.github.jjfhj.filters.CustomLogFilter.customLogFilter;
+import static com.github.besfian.config.App.API_CONFIG;
+import static com.github.besfian.filters.CustomLogFilter.customLogFilter;
 import static io.restassured.RestAssured.with;
 import static io.restassured.filter.log.LogDetail.BODY;
 import static io.restassured.filter.log.LogDetail.HEADERS;

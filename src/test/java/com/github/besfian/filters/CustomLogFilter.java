@@ -1,4 +1,4 @@
-package com.github.jjfhj.filters;
+package com.github.besfian.filters;
 
 import io.qameta.allure.restassured.AllureRestAssured;
 

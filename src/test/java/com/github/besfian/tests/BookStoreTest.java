@@ -1,22 +1,21 @@
-package com.github.jjfhj.tests;
+package com.github.besfian.tests;
 
 
-import com.github.jjfhj.lombok.UserRequestData;
-import com.github.jjfhj.lombok.UserResponseData;
-import com.github.jjfhj.lombok.UserToken;
-import com.github.jjfhj.models.BookListData;
+import com.github.besfian.lombok.UserRequestData;
+import com.github.besfian.lombok.UserResponseData;
+import com.github.besfian.lombok.UserToken;
+import com.github.besfian.models.BookListData;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
-import static com.github.jjfhj.config.App.CREDENTIALS_CONFIG;
-import static com.github.jjfhj.specs.Specs.request;
-import static com.github.jjfhj.specs.Specs.responseSpec;
-import static com.github.jjfhj.tests.TestData.*;
+import static com.github.besfian.config.App.CREDENTIALS_CONFIG;
+import static com.github.besfian.specs.Specs.request;
+import static com.github.besfian.specs.Specs.responseSpec;
+import static com.github.besfian.tests.TestData.*;
 import static io.restassured.RestAssured.given;
-import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;

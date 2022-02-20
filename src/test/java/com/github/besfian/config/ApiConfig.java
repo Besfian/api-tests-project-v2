@@ -1,4 +1,4 @@
-package com.github.jjfhj.config;
+package com.github.besfian.config;
 
 import org.aeonbits.owner.Config;
 

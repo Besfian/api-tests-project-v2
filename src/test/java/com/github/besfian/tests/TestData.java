@@ -1,6 +1,6 @@
-package com.github.jjfhj.tests;
+package com.github.besfian.tests;
 
-import static com.github.jjfhj.tests.BookStoreTest.USER_RESPONSE_DATA;
+import static com.github.besfian.tests.BookStoreTest.USER_RESPONSE_DATA;
 
 public class TestData {
 
