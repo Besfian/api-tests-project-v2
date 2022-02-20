@@ -97,7 +97,7 @@ allure serve build/allure-results
 4. Нажать на кнопку <code>"Собрать"</code>
 
 <p align="center">
-<img title="Jenkins parameters" src="images/screens/Allure_Report.svg">
+<img title="Jenkins parameters" src="images/screens/Запуск тестов в Jenkins.png">
 </p>
 
 ### :rocket: Для формирования отчета о прохождении тестов в Allure Report необходимо выполнить следующий шаг:
@@ -106,7 +106,7 @@ allure serve build/allure-results
    ссылку/иконку <img width="3%" title="Allure Report" src="images/logo/Allure_Report.svg"> <code>"Allure Report"</code>
 
 <p align="center">
-<img title="Allure Report" src="images/screens/Allure-отчета.png">
+<img title="Allure Report" src="images/screens/Allure Report .png">
 </p>
 
 [Вернуться к содержанию](#-содержание) :top:
