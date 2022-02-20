@@ -182,62 +182,19 @@ allure serve build/allure-results
 ### :jigsaw: Основной дашборд
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/allure_overview_dashboard.png">
+<img title="Allure Overview Dashboard" src="images/screens/Allure TestOps.png">
 </p>
 
-### :jigsaw: Кастомный дашборд
 
-<p align="center">
-<img title="Allure Custom Dashboard" src="images/screens/allure_custom_dashboard.png">
-</p>
 
-### :jigsaw: Дашборд по типам тестов
 
-<p align="center">
-<img title="Dashboard by Test Types" src="images/screens/dashboard_by_test_types.png">
-</p>
 
-### :jigsaw: Дашборд по стендам
 
-<p align="center">
-<img title="Dashboard by Stands" src="images/screens/dashboard_by_stands.png">
-</p>
 
-### :jigsaw: Дашборд по команде
 
-<p align="center">
-<img title="Dashboard by Team" src="images/screens/dashboard_by_team.png">
-</p>
 
-### :jigsaw: Запуски тестов
 
-<p align="center">
-<img title="Allure Launches" src="images/screens/allure_launches.png">
-</p>
 
-### :jigsaw: Результаты запуска тестов
-
-<p align="center">
-<img title="Allure Results" src="images/screens/allure_results.png">
-</p>
-
-### :jigsaw: Сгруппированные тест-кейсы по проверяемому функционалу
-
-<p align="center">
-<img title="Allure Test Cases" src="images/screens/allure_testcases.png">
-</p>
-
-[Вернуться к содержанию](#-содержание) :top:
-
-## <img width="4%" title="Jira" src="images/logo/Jira.svg"> Интеграция тестов c таск-трекер системой [Jira](https://jira.autotests.cloud/browse/HOMEWORK-325)
-
-> В проекте реализована интеграция с <code>Jira</code>, что позволяет добавлять в задачи тест-кейсы, запуски и их результаты.
-
-<p align="center">
-<img title="Jira Issues" src="images/screens/jira_issues.png">
-</p>
-
-[Вернуться к содержанию](#-содержание) :top:
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
