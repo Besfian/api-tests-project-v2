@@ -152,17 +152,7 @@ allure serve build/allure-results
 > На странице <code>Graphs</code> можно получить информацию о тестовом прогоне в графическом виде: статус прогона, распределение тестов по критичности, длительности прохождения, перезапускам, категориям дефектов и так далее.
 > </details>
 
-### :dart: Информация о тестовом прогоне в графическом виде
 
-<p align="center">
-<img title="Allure Graphs" src="images/screens/allure_graphs.png">
-</p>
-
-> <details>
-> <summary> :point_left: Страница <code>Behaviors</code> </summary>
->
-> На странице <code>Behaviors</code> тесты сгруппированы по проверяемому функционалу _(Epic, Feature, Story)_.
-> </details>
 
 ### :dart: Группировка тестов по проверяемому функционалу
 
