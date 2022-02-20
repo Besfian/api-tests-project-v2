@@ -13,8 +13,7 @@ import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
 public class TestBase {
-
-
+    @BeforeAll
     static void setup() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
