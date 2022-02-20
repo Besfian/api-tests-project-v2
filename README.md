@@ -38,9 +38,8 @@
 
 [Вернуться к содержанию](#-содержание) :top:
 
-## <img width="4%" title="Terminal" src="images/logo/terminal.png"> Запуск тестов из терминала
+# Запуск тестов локально
 
-### :joystick: Запуск тестов
 
 ```
 gradle clean ${TASK}
