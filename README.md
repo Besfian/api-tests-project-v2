@@ -6,7 +6,7 @@
 
 
 
-#Технологический стек
+# Технологический стек
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
@@ -32,11 +32,10 @@
 >
 > <code>Jenkins</code> выполняет запуск тестов.
 >
-> Автотесты интегрируются с тест-менеджмент системой <code>Allure TestOps</code> и таск-трекер системой <code>Jira</code>.
+> Автотесты интегрируются с тест-менеджмент системой <code>Allure TestOps</code>.
 >
 > После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>.
 
-[Вернуться к содержанию](#-содержание) :top:
 
 # Запуск тестов локально
 
@@ -64,7 +63,7 @@ gradle clean ${TASK}
 >
 > </details>
 
-### :joystick: Параметры сборки
+# Параметры сборки
 
 > <details>
 > <summary> :point_left: <code>TASK</code> – список тестов, сгруппированных по параметру тега. В зависимости от выбранного параметра, будут запускаться определенные группы тестов.</summary>
@@ -77,7 +76,7 @@ gradle clean ${TASK}
 > + <code>api_test</code> – запуск тестов с тегом _API_
 > </details>
 
-### :joystick: Формирование отчета Allure
+# Формирование отчета Allure
 
 ```
 allure serve build/allure-results
@@ -85,7 +84,6 @@ allure serve build/allure-results
 
 > :exclamation: Для формирования отчета должен быть установлен <code>Allure</code>.
 
-[Вернуться к содержанию](#-содержание) :top:
 
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/jjfhj-bookstore_api_test/)
 
@@ -109,7 +107,6 @@ allure serve build/allure-results
 <img title="Allure Report" src="images/screens/Allure Report .png">
 </p>
 
-[Вернуться к содержанию](#-содержание) :top:
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure Report.png"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/jjfhj-bookstore_api_test/allure/)
 
@@ -173,7 +170,6 @@ allure serve build/allure-results
 >
 > </details>
 
-[Вернуться к содержанию](#-содержание) :top:
 
 ## <img width="4%" title="Allure TestOps" src="images/logo/Allure_TestOps.svg"> Интеграция тестов c тест-менеджмент системой [Allure TestOps](https://allure.autotests.cloud/project/1006/dashboards/)
 
