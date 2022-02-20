@@ -4,9 +4,9 @@
 
 
 
-[Вернуться к содержанию](#-содержание) :top:
 
-## <img width="4%" title="Technologies" src="images/logo/technologies.png"> Технологический стек
+
+#Технологический стек
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
