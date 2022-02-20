@@ -201,4 +201,3 @@ allure serve build/allure-results
 <img title="Telegram Notifications" src="images/screens/телеграм бот.png">
 </p>
 
-[Вернуться к содержанию](#-содержание) :top:
