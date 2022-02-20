@@ -97,13 +97,13 @@ allure serve build/allure-results
 4. Нажать на кнопку <code>"Собрать"</code>
 
 <p align="center">
-<img title="Jenkins parameters" src="images/screens/jenkins_parameters.png">
+<img title="Jenkins parameters" src="images/screens/Запуск тестов в Jenkins.png">
 </p>
 
 ### :rocket: Для формирования отчета о прохождении тестов в Allure Report необходимо выполнить следующий шаг:
 
 5. После выполнения сборки нажать на любую
-   ссылку/иконку <img width="3%" title="Allure Report" src="images/logo/Allure_Report.svg"> <code>"Allure Report"</code>
+   ссылку/иконку <img width="3%" title="Allure Report" src="images/logo/Allure-отчета.png"> <code>"Allure Report"</code>
 
 <p align="center">
 <img title="Allure Report" src="images/screens/jenkins_allure_report.png">
@@ -111,7 +111,7 @@ allure serve build/allure-results
 
 [Вернуться к содержанию](#-содержание) :top:
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/jjfhj-bookstore_api_test/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure Report.png"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/jjfhj-bookstore_api_test/allure/)
 
 > [**Allure-framework**](https://habr.com/ru/company/sberbank/blog/358836/) используется в качестве инструмента для построения отчетов о прогоне автотестов.
 > Он позволяет получить информацию о ходе выполнения тестов, а также прикрепить скриншоты, логи и видео к формируемому отчету.
