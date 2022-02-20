@@ -202,7 +202,7 @@ allure serve build/allure-results
 > [Фреймворк](https://github.com/qa-guru/allure-notifications) также поддерживает уведомления по _электронной почте, Slack, Skype_ и _Mattermost_.
 
 <p align="center">
-<img title="Telegram Notifications" src="images/screens/telegram_notifications.png">
+<img title="Telegram Notifications" src="images/screens/телеграм бот.png">
 </p>
 
 [Вернуться к содержанию](#-содержание) :top:
