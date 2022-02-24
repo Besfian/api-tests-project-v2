@@ -21,7 +21,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-@Owner("kgordienko")
+@Owner("sergeev")
 @Tags({@Tag("Web"), @Tag("API")})
 @Link(name = "Book Store", url = "https://demoqa.com/books")
 @DisplayName("Тестирование веб-приложения Book Store")
